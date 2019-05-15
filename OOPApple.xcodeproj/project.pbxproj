@@ -13,6 +13,9 @@
 		0D2CE63B228B9CFB00263D44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D2CE63A228B9CFB00263D44 /* Assets.xcassets */; };
 		0D2CE63E228B9CFB00263D44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D2CE63C228B9CFB00263D44 /* LaunchScreen.storyboard */; };
 		0D2CE646228BA89700263D44 /* LearnerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2CE645228BA89700263D44 /* LearnerModel.swift */; };
+		0D2CE648228BB73500263D44 /* SepedaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2CE647228BB73500263D44 /* SepedaModel.swift */; };
+		0D2CE64A228BC4E800263D44 /* FacilitatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2CE649228BC4E800263D44 /* FacilitatorModel.swift */; };
+		0D2CE64C228BC98300263D44 /* MenteeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2CE64B228BC98300263D44 /* MenteeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		0D2CE63D228B9CFB00263D44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D2CE63F228B9CFB00263D44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D2CE645228BA89700263D44 /* LearnerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnerModel.swift; sourceTree = "<group>"; };
+		0D2CE647228BB73500263D44 /* SepedaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepedaModel.swift; sourceTree = "<group>"; };
+		0D2CE649228BC4E800263D44 /* FacilitatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacilitatorModel.swift; sourceTree = "<group>"; };
+		0D2CE64B228BC98300263D44 /* MenteeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenteeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +64,10 @@
 			children = (
 				0D2CE633228B9CF900263D44 /* AppDelegate.swift */,
 				0D2CE635228B9CF900263D44 /* ViewController.swift */,
+				0D2CE64B228BC98300263D44 /* MenteeModel.swift */,
 				0D2CE645228BA89700263D44 /* LearnerModel.swift */,
+				0D2CE647228BB73500263D44 /* SepedaModel.swift */,
+				0D2CE649228BC4E800263D44 /* FacilitatorModel.swift */,
 				0D2CE637228B9CF900263D44 /* Main.storyboard */,
 				0D2CE63A228B9CFB00263D44 /* Assets.xcassets */,
 				0D2CE63C228B9CFB00263D44 /* LaunchScreen.storyboard */,
@@ -139,8 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D2CE636228B9CF900263D44 /* ViewController.swift in Sources */,
+				0D2CE64C228BC98300263D44 /* MenteeModel.swift in Sources */,
 				0D2CE646228BA89700263D44 /* LearnerModel.swift in Sources */,
 				0D2CE634228B9CF900263D44 /* AppDelegate.swift in Sources */,
+				0D2CE64A228BC4E800263D44 /* FacilitatorModel.swift in Sources */,
+				0D2CE648228BB73500263D44 /* SepedaModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

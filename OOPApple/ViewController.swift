@@ -16,11 +16,13 @@ class ViewController: UIViewController {
     @IBOutlet weak var learnerHeightLabel: UILabel!
     
     var myLearnerInstance: LearnerModel?
+    var myFacilitatorInstance: FacilitatorModel?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         myLearnerInstance = LearnerModel(learnerName: "Steven", learnerAge: 24, height: 175.0, imageProfile: "img.jpg")
+        myFacilitatorInstance = FacilitatorModel(facilName: "Steven", facilAge: 24, facilHeight: 176.0, facilImageProfile: "img.jpg", facilPerk: "what is perk?")
         updateUI()
     }
 
